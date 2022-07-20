@@ -1,0 +1,1 @@
+enum SearchState { Loading, NoData, HasData, Error, NoQueri }

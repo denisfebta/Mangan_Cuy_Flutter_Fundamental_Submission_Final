@@ -1,0 +1,48 @@
+name: restaurant_project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.3.1
+  http: ^0.13.3
+  provider: ^6.0.2
+  sqflite: ^2.0.2
+  intl: ^0.17.0
+  salomon_bottom_bar: ^3.1.1
+  android_alarm_manager_plus: ^2.0.6
+  flutter_local_notifications: ^5.0.0+3
+  shared_preferences: ^2.0.13
+  rxdart: ^0.26.0
+  flutter_offline: ^2.1.0
+  lottie: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.8
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/food.jpg
+    - assets/images/drink.jpeg
+    - assets/images/no-wifi.png
+    - assets/splash/splash_restaurant.json
+    - assets/splash/food-app-interaction.json
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
